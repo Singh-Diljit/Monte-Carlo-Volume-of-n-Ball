@@ -19,6 +19,7 @@ Seeing this sequence it is natural to think the volume of the unit n-ball may in
 
 For each dimension I sample 50 million points from a hypercube centered at the origin with side length 2. By counting how many points are contained in the unit n-ball we arrive at a ratio of volumes between the two objects. Since we know the exact volume of the hypercube, estimating the volume of the n-ball simply amounts to multiplying the estimated ratio of volumes with the volume of the hypercube.
 
+![Plot of Estimated Volumes](https://github.com/Singh-Diljit/Monte-Carlo-Volume-of-n-Ball/assets/90169508/569bfead-bcfb-4156-af22-35e2289b1299)
 
 Code used to generate the plot:
 ```python
